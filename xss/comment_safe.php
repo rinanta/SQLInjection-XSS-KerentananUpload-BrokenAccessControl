@@ -148,7 +148,6 @@ $comments = $stmt->fetchAll();
                             redirect('comment_safe.php');
                         }
                         ?>
-                        <button type="submit" class="btn btn-secondary">🗑️ Clear All Comments</button>
                     </form>
                 <?php endif; ?>
             </div>
